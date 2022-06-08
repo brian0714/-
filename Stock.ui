@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Letsgo_Button">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>310</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="accessibleDescription">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../START_BUTT-removebg-preview.png</normaloff>../../START_BUTT-removebg-preview.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>193</width>
+      <height>62</height>
+     </size>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>750</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../HOME-nobutt.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>Letsgo_Button</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="Setting">
+    <property name="title">
+     <string>設定</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="Edit">
+    <property name="title">
+     <string>編輯</string>
+    </property>
+    <addaction name="Prev"/>
+    <addaction name="Next"/>
+    <addaction name="Home"/>
+   </widget>
+   <widget class="QMenu" name="Action">
+    <property name="title">
+     <string>動作</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="Copy"/>
+    <addaction name="Paste"/>
+   </widget>
+   <addaction name="Setting"/>
+   <addaction name="Edit"/>
+   <addaction name="Action"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Prev">
+   <property name="text">
+    <string>上一步</string>
+   </property>
+   <property name="statusTip">
+    <string>Go back the motion</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Left</string>
+   </property>
+  </action>
+  <action name="Next">
+   <property name="text">
+    <string>下一步</string>
+   </property>
+   <property name="statusTip">
+    <string>Next the file</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Right</string>
+   </property>
+  </action>
+  <action name="Home">
+   <property name="text">
+    <string>回到首頁</string>
+   </property>
+   <property name="statusTip">
+    <string>Renew the file</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Home</string>
+   </property>
+  </action>
+  <action name="Copy">
+   <property name="text">
+    <string>複製</string>
+   </property>
+   <property name="statusTip">
+    <string>Copy a file</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="Paste">
+   <property name="text">
+    <string>貼上</string>
+   </property>
+   <property name="statusTip">
+    <string>Paste a file</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

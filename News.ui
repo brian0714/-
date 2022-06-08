@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>793</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::RightToLeft</enum>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/News.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Title_label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>17</y>
+     <width>441</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>鴻海 2317</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Data_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>97</x>
+     <y>75</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Compare_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>75</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Index_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>433</x>
+     <y>75</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>711</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>686</width>
+         <height>1000</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>1000</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhNone</set>
+       </property>
+       <widget class="QWidget" name="widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>671</width>
+          <height>1500</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>661</width>
+          <height>1500</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>10</y>
+           <width>620</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>微軟正黑體</family>
+           <pointsize>18</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>1. 鴻海退出群創董事會 震撼業界</string>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="margin">
+          <number>0</number>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+         <property name="buddy">
+          <cstring></cstring>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>50</y>
+           <width>451</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>img/CH.jpg</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>330</y>
+           <width>620</width>
+           <height>600</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>600</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>微軟正黑體 Light</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>面板大廠群創將在六月二十四日舉行股東常會並改選董事，公司公告的董事候選人名單中，四席董事、五席獨董全由自然人擔任，鴻海集團並未參選，是群創自二○○三年成立以來，鴻海集團首度撤出群創董事會，震撼業界。
+
+鴻海集團目前透過旗下鴻揚創投掌握群創兩席董事，此次群創改選未見鴻海集團推派所屬勢力參選，時值面板景氣反轉之際，鴻海集團退出群創董事會，引發外界產生「淡化鴻海色彩」聯想。至昨日截稿前，無法取得群創回應；鴻海對此也沒有回應。
+
+攤開群創今年提名的董事名單，四席自然人董事為群創董事長洪進揚、群創教育基金會董事長王志超、群創總經理楊柱祥，及群創執行副總暨群豐駿科技董事長丁景隆，均與現任四席董事完全相同。唯一不同之處，是楊柱祥與丁景隆原是以鴻揚創投法人董事代表人名義出任，今年改為自然人身分。這意味參與創立群創光電的鴻揚創投將退出群創董事會，引起關注。
+
+群創二○○三年成立，在富爸爸鴻海的加持下，二○○五年繳出轉虧為盈的成績單，在監視器面板躋身全球前三大供應商，二○○六年群創上市，二○一○年完成合併奇美電、統寶的「三合一」，躍升為台灣面板廠一哥。群創受面板報價去年下半年起走跌與需求疲弱影響，今年首季稅後純益降至十八點八九億元，季減百分之六十八點二，年減百分之八十三點七，每股純益○點一八元，下探近六季低點。</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
