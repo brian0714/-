@@ -54,7 +54,7 @@ Step4:
 <br>製作本專案步驟：    </br>
 Step1: 資料蒐集
 
-利用證券網（網址：https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=html&date={}&stockNo={}）進行爬蟲，以股號及日期來取得台灣50裡各股（共五十支股票）近10年或從上市櫃開始算起迄今日的每日交易資料（日k），其中包括日期、成交股數、成交金額、開盤價、最高價、最低價、收盤價、帳跌價差及成交筆數，最後將各股資料爬取後儲存成csv檔案並後續以python pandas dataframe格式提取資料以便做資料清洗與模型訓練。
+利用證券網（網址：https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=html&date={}&stockNo={} ）進行爬蟲(其中兩個{}分別為日期與股號)，以股號及日期來取得台灣50裡各股（共五十支股票）近10年或從上市櫃開始算起迄今日的每日交易資料（日k），其中包括日期、成交股數、成交金額、開盤價、最高價、最低價、收盤價、帳跌價差及成交筆數，最後將各股資料爬取後儲存成csv檔案並後續以python pandas dataframe格式提取資料以便做資料清洗與模型訓練。
 
 Step2: 資料處理
 
